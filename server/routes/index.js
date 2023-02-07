@@ -7,6 +7,6 @@ router.get('/', function (req, res, next) {
 });
 
 // /note 에 접근하면 routes/note.js 로 연결되게 라우팅
-router.use('/note', requre('./note'));
+router.use('/note', require('./note'));
 
 module.exports = router;
