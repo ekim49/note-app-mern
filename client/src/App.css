@@ -19,16 +19,16 @@
 .inner {
 	width: 230px;
 	height: 230px;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 	box-shadow: inset -7px -7px 8px #eeeff3, inset 7px 7px 8px #f8f9fd;
+	/* post-it 효과 */
+	/* background-color: #fff9c4; */
 	display: flex;
 	flex-direction: column;
 	align-self: center;
 	padding: 30px;
 	margin: auto;
-	/* 세로 정렬 */
 	justify-content: center;
-	/* 가로 정렬 */
 	align-items: center;
 }
 
@@ -50,11 +50,16 @@ h5,
 h4,
 h3,
 h2,
-h1,
 p {
 	color: #403f3e;
 	font-weight: 300;
 	margin: 5px;
+	/* background-color: #fff9c4; */
+}
+
+h1 {
+	font-weight: 700;
+	color: #403f3e;
 }
 
 .shadow {
